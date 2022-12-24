@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sky Tools - Home</title><link rel="stylesheet" href="assets/css/style.css?v=0.0.1"><link rel="stylesheet" href="css/locomative.css"><meta name="title" content="SCotL Tools | start page"><meta name="description" content="Lots of interesting tools can be found on this site."><meta property="og:site_name" content="Портфолио"><meta property="og:type" content="website"><meta property="og:url" content="https://zippw.github.io/sky-tools/"><meta property="og:title" content="SCotL Tools | start page"><meta property="og:description" content="Lots of interesting tools can be found on this site."><meta property="og:image" content="https://zippw.github.io/sky-tools/img/banner.jpg"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://zippw.github.io/sky-tools/"><meta property="twitter:title" content="SCotL Tools | start page"><meta property="twitter:description" content="Lots of interesting tools can be found on this site."><meta property="twitter:image" content="https://zippw.github.io/sky-tools/img/banner.jpg"></head><body data-barba="wrapper" data-theme="light" v-scrollbar><script>const env_path = "https://mainzippapi3000.herokuapp.com";</script><div class="side_menu"><div class="title">Menu<kbd>Q</kbd></div><div class="menu__scroll" v-scrollbar><div class="onoff"><div>Night mode</div><input id="theme_changer_checkbox" type="checkbox"><label class="hc" for="theme_changer_checkbox" data-magnetic data-cursor-stick data-cursor="-lg -backOut"><div class="left__line"></div><div class="circle"></div><div class="right__line"></div></label></div><div class="project__help"><div>Your ideas</div><form class="text_and_submit"><textarea class="hc" id="idea_textarea" v-scrollbar data-cursor-icon="pencil" data-cursor="-sm -hidden"></textarea><button class="hc" type="submit">Unavailable</button></form></div><div class="hint">Hotkeys menu<kbd data-keybind="KeyH">H</kbd></div></div></div><nav class="navbar"><div class="menu__checkbox"><input class="menu" id="side_menu" type="checkbox"><label class="hc" for="side_menu" data-magnetic data-cursor-stick data-cursor="-backOut -pointer_big"></label></div></nav><nav class="sections"><div class="bar__container"><span class="track"></span><span class="thumb"></span></div><ul><li class="hc no-select here" id="anch_1" onclick="scrollToSection(this)" data-section="1" tabindex="-1" data-cursor-stick>Posts</li><li class="hc no-select" id="anch_2" onclick="scrollToSection(this)" data-section="2" tabindex="-1" data-cursor-stick>Winged Light</li></ul></nav><div class="scroller" data-scroll-container><div class="main__content"><section class="info" id="section_1" data-bgcolor="var(--bg)"><div class="home"><div class="greetings"><div class="first__greet"><p>Welcome to</p><h1>Sky Tools!</h1></div><div class="second__greet"><div class="scroll-down"><p>Scroll or press<br><span><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd></span>. . .</p><div class="mouse hc" onclick="scrollDown()" data-magnetic data-cursor-stick data-cursor-text="Scroll down" data-cursor="-lg -backOut"><div class="mouse_btn"></div></div></div></div></div><div class="posts"><div class="posts__container"><div class="title" h-scrollbar><label class="posts__task__radio chosen" for="posts_radio" data-cursor-stick><em>Last posts</em><input id="posts_radio" type="radio" name="posts_tasks"></label><label class="posts__task__radio" for="tasks_radio" data-cursor-stick><em>Tasks</em><input id="tasks_radio" type="radio" name="posts_tasks"></label></div><div class="list tasks__content" style="display: none"><div class="post"><div class="img__container"><div class="type__container"><img class="type" src="img/g_assets/tasks/compass.webm" alt=""></div><img class="head" src="img/istochnik.png" alt=""></div><div class="text">Visit the hot spring in Dream Village</div></div><div class="post"><div class="img__container"><div class="type__container"><img class="type" src="img/g_assets/tasks/players.webm" alt=""></div><img class="head" src="img/istochnik.png" alt=""></div><div class="text">Visit the hot spring in Dream Village</div></div><div class="post"><div class="img__container"><div class="type__container"><img class="type" src="img/g_assets/tasks/flame.webm" alt=""></div><img class="head" src="img/istochnik.png" alt=""></div><div class="text">Relive a Spirit's memories in Praire</div></div><div class="post"><div class="img__container"><div class="type__container"><img class="type" src="img/g_assets/tasks/players.webm" alt=""></div><img class="head" src="img/istochnik.png" alt=""></div><div class="text">Visit the hot spring in Dream Village</div></div></div><div class="list posts__content" v-scrollbar data-overflow-locomative><img class="preloader__posts" src="https://cdn.discordapp.com/emojis/630236290662662145.gif?size=64"></div></div></div></div></section><section class="light" id="section_2" data-bgcolor="var(--bg2)"><div class="clouds"><div class="clouds-1"></div><div class="clouds-2"></div><div class="clouds-3"></div></div><div class="text__container"><span class="no-select">Location<kbd>←</kbd><kbd>→</kbd></span><div class="sky__location no-select" id="sky_location">Isle of<br>Dawn</div></div><div class="light_swiper"><div class="swiper-wrapper"><a class="hc swiper-slide no-select" href="island" data-bg-img="https://cdn.discordapp.com/attachments/975811523303850044/1056134828627595305/Mask_group.png" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Isle of&lt;br&gt;Dawn"><img class="bg" src="img/locations/isle_of_dawn.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">9</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a><a class="hc swiper-slide no-select" href="prairie" data-bg-img="https://cdn.discordapp.com/attachments/785238672093347840/1053765511688761404/urdchz0v5wy81.jpg" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Daylight&lt;br&gt;Prairie"><img class="bg" src="img/locations/daylight_prairie.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">2</div><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-140">1</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a><a class="hc swiper-slide no-select" href="forest" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Hidden&lt;br&gt;Forest"><img class="bg" src="img/locations/hidden_forest.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">1</div><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-140">9</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a><a class="hc swiper-slide no-select" href="valley" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Valley of&lt;br&gt;Triumph"><img class="bg" src="img/locations/valley_of_triumph.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">1</div><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-140">7</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a><a class="hc swiper-slide no-select" href="wasteland" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Golden&lt;br&gt;Wasteland"><img class="bg" src="img/locations/golden_wasteland.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">1</div><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-140">8</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a><a class="hc swiper-slide no-select" href="vault" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Vault of&lt;br&gt;Knowledge"><img class="bg" src="img/locations/vault_of_knowledge.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">1</div><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-140">1</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a><a class="hc swiper-slide no-select" href="eden" data-cursor-icon="plus" data-cursor="-sm -exMedia -bigIcon -hidden -exclusion" data-slide-name="Eye of&lt;br&gt;Eden"><img class="bg" src="img/locations/eye_of_eden.png" alt=""><div class="ctx"><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100">1</div><div class="count" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-140">1</div><img class="icon" data-swiper-parallax-opacity="0" data-swiper-parallax-y="-180" src="img/g_assets/icons/wl.webp" alt=""></div></a></div></div><div class="light_swiper_swiper__pgn"><div class="left_pgn no-select"><div class="swiper-wrapper"><div class="swiper-slide">1</div><div class="swiper-slide">2</div><div class="swiper-slide">3</div><div class="swiper-slide">4</div><div class="swiper-slide">5</div><div class="swiper-slide">6</div><div class="swiper-slide">7</div></div></div><div class="middle_pgn no-select">—</div><div class="right_pgn no-select">7</div></div></section><script id="snoise-function" type="x-shader/x-vertex">vec3 mod289(vec3 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+vec2 mod289(vec2 x) { return x - floor(x * (1.0 / 289.0)) * 289.0; }
+vec3 permute(vec3 x) { return mod289(((x*34.0)+1.0)*x); }
+
+float snoise(vec2 v) {
+    const vec4 C = vec4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0
+        0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)
+        -0.577350269189626,  // -1.0 + 2.0 * C.x
+        0.024390243902439); // 1.0 / 41.0
+    vec2 i  = floor(v + dot(v, C.yy) );
+    vec2 x0 = v -   i + dot(i, C.xx);
+    vec2 i1;
+    i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+    vec4 x12 = x0.xyxy + C.xxzz;
+    x12.xy -= i1;
+    i = mod289(i); // Avoid truncation effects in permutation
+    vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
+        + i.x + vec3(0.0, i1.x, 1.0 ));
+
+    vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);
+    m = m*m ;
+    m = m*m ;
+    vec3 x = 2.0 * fract(p * C.www) - 1.0;
+    vec3 h = abs(x) - 0.5;
+    vec3 ox = floor(x + 0.5);
+    vec3 a0 = x - ox;
+    m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
+    vec3 g;
+    g.x  = a0.x  * x0.x  + h.x  * x0.y;
+    g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+    return 130.0 * dot(m, g);
+}</script><script id="vertex-shader" type="x-shader/x-vertex">uniform float u_time;
+uniform vec2 u_randomisePosition;
+
+varying float vDistortion;
+varying float xDistortion;
+varying vec2 vUv;
+
+void main() {
+    vUv = uv;
+    vDistortion = snoise(vUv.xx * 3. - u_randomisePosition * 0.15);
+    xDistortion = snoise(vUv.yy * 1. - u_randomisePosition * 0.05);
+    vec3 pos = position;
+    pos.z += (vDistortion * 35.);
+    pos.x += (xDistortion * 25.);
+
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
+}</script><script id="fragment-shader" type="x-shader/x-fragment">vec3 rgb(float r, float g, float b) {
+    return vec3(r / 255., g / 255., b / 255.);
+}
+
+vec3 rgb(float c) {
+    return vec3(c / 255., c / 255., c / 255.);
+}
+
+uniform vec3 u_bg;
+uniform vec3 u_bgMain;
+uniform vec3 u_color1;
+uniform vec3 u_color2;
+uniform float u_time;
+
+varying vec2 vUv;
+varying float vDistortion;
+
+void main() {
+    vec3 bg = rgb(u_bg.r, u_bg.g, u_bg.b);
+    vec3 c1 = rgb(u_color1.r, u_color1.g, u_color1.b);
+    vec3 c2 = rgb(u_color2.r, u_color2.g, u_color2.b);
+    vec3 bgMain = rgb(u_bgMain.r, u_bgMain.g, u_bgMain.b);
+
+    float noise1 = snoise(vUv + u_time * 0.08);
+    float noise2 = snoise(vUv * 2. + u_time * 0.1);
+
+    vec3 color = bg;
+    color = mix(color, c1, noise1 * 0.6);
+    color = mix(color, c2, noise2 * .4);
+
+    color = mix(color, mix(c1, c2, vUv.x), vDistortion);
+
+    float border = smoothstep(0.1, 0.6, vUv.x);
+
+    color = mix(color, bgMain, 1. -border);
+
+    gl_FragColor = vec4(color, 1.0);
+}</script></div></div><script src="assets/js/index.js?v=0.0.1" defer></script></body></html>
